@@ -2,9 +2,9 @@ import machine
 import utime
 import urandom
 
-led = machine.Pin(14, machine.Pin.OUT)
-button1 = machine.Pin(15, machine.Pin.IN, machine.Pin.PULL_UP)
-button2 = machine.Pin(13, machine.Pin.IN, machine.Pin.PULL_UP)
+led = machine.Pin(1, machine.Pin.OUT)
+button1 = machine.Pin(5, machine.Pin.IN, machine.Pin.PULL_UP)
+button2 = machine.Pin(6, machine.Pin.IN, machine.Pin.PULL_UP)
 
 
 fastest_button = None
